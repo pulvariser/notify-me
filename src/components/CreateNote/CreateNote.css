@@ -1,0 +1,52 @@
+.createnote-container{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.createnote{
+    background-color: white;
+    width: 25rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    padding:0.2rem 0.5rem;
+  border: ridge 4px blue;
+  
+ 
+
+}
+.createnote input, button ,textarea{
+                  width: 100%;
+                margin-top: 0.3rem;
+                border :groove 2px darkcyan;
+                outline: none;
+                border-radius: 0.5rem;
+                padding: 0.3rem;
+                background-color: aquamarine;
+                font-family:cursive , sans-serif;
+                
+                
+}
+.createnote button:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+    color: white;
+    font-size: medium;
+
+}
+
+.createnote input{
+    font-weight: bolder;
+    font-size: large;
+    background-color: lightblue;
+    
+}
+.createnote textarea{
+
+    font-weight:bold;
+    font-size: 0.85rem;
+    background-color: lightblue;
+   
+}
+

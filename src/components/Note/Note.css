@@ -1,0 +1,62 @@
+.note{
+    /* background-color:grey; */
+    /* From https://css.glass */
+background: rgba(220, 220, 235, 0.068);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 20rem;
+    color:rgb(150, 15, 150);
+    height: 11rem;
+    /* border-radius: 8px; */
+    padding: 5px;
+    margin-top:1rem ;
+    
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+    
+    margin: 1rem ;
+    font-size: small;
+    font-family: cursive;
+    overflow-y: scroll;
+}
+
+  .note h3{
+    text-indent: 3rem;
+    color: red;
+  }
+  .note p{
+    color:brown;
+    margin-top: 1rem;
+  }
+  
+
+
+.deleteicon{
+    position: fixed;
+    color:brown;
+    right: 17rem;
+    top: 0px;
+    cursor: pointer;
+
+}
+.deleteicon:hover{
+    color:grey;
+    
+
+}
+
+
+.note:hover{
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); 
+}
+
+
+    
+ 
+    
